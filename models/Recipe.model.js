@@ -1,7 +1,9 @@
 const mongoose = require("mongoose");
 const Schema = mongoose.Schema;
 
-const recipeSchema = new mongoose.Schema({
+// ! Iteración 1 => Recipe Schema
+
+const recipeSchema = new Schema({
   title: {
     type: String,
     required: true,
